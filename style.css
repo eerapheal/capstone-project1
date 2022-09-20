@@ -11,7 +11,8 @@
 
 body {
   background-image: url(./images/smooth-white-wave-background_52683-55288.jpg);
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
 .nav-item {
@@ -136,13 +137,72 @@ body {
   color: #fff;
 }
 
+.third-sction {
+  padding: 20px;
+   text-align: center;
 
+}
+
+.hello1 {
+  color: #ec5242;
+  padding-bottom: 23px;
+
+}
+
+
+.bg-color {
+  background-color: #fff;
+}
+
+.ralph2 {
+  color: #de4839;
+  padding-bottom: 23px;
+}
+
+.approach {
+  background-color: #fff;
+  box-shadow: 2px #dba554;
+  padding-bottom: 25px;
+
+}
+
+.reach {
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ralph3 {
+  color: #de4839;
+  padding-bottom: 23px;
+}
+
+
+.mobile-abouts {
+  padding-bottom: 23px;
+}
 
 .nav-item-desk {
   display: none;
 }
 .desktop {
   display:none;
+}
+
+.desktop-abouts {
+  display: none;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+.last {
+  position: relative;
+  font-size: 8px;
+  padding-left: 99px;
+  bottom:18px;
 }
 
 @media (max-width: 768px) {
@@ -187,7 +247,10 @@ body {
   .mobile {
      display:none;
   }
-
+   
+  .mobile-abouts {
+    display: none;
+  }
   .nav-item-desk {
     display: flex;
     justify-content: space-around;
@@ -259,6 +322,11 @@ body {
     color: #fff;
     justify-content: center;
     padding-top: 50px;
+  }
+
+  .mes {
+
+   min-height: auto;
   }
 }
 
