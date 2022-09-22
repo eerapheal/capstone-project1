@@ -11,10 +11,10 @@
 <body>
   <header>
     <div class="nav-item-desk">
-      <img src="./images/ralph.jpg"  width ="78" height="30px" alt="logo">
+     <a href="#home"><img src="./images/ralph.jpg"  width ="78" height="30px" alt="logo"></a>
       <div class="nav-items">
-      <a class="nav-link1" href="#">About</a>
-      <a class="nav-link" href="#a">Programs</a>
+      <a class="nav-link1" href="#about">About</a>
+      <a class="nav-link" href="#program">Programs</a>
       <a class="nav-link" href="#contactt">Join</a>
       <a class="nav-link" href="#contactt">Sponsor</a>
       <a class="nav-link" href="#contactt">News</a>
@@ -24,8 +24,8 @@
    <nav>
     <div id="nav-bar">
       <div class="nav-item">
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#a">Programs</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#program">Programs</a>
           <a class="nav-link" href="#contactt">Join</a>
           <a class="nav-link" href="#contactt">Sponsor</a>
           <a class="nav-link" href="#contactt">News</a>
@@ -40,14 +40,14 @@
    </nav>
   </header>
   <main>
-     <section class="first-sction">
+     <section id="home" class="first-sction">
       <h3 class="hello">"Hello everyone"</h3>
       <h1 class="ralph">RALPH03 IS STUDY PLATFORM <br>YOU CAN ACCESS ANYWHERE</h1>
       <P class="first-p">Online education is the newly evolved form of education<br> where students study from their homes with the help <br> of computers and the internet. join us.</P>
       <h3 class="date">2022.10.15(THUR) ~ (16) FRI</h3>
         <P class="first-body">@National Museum of Korea, Art Center Nabi and More</P>
     </section>
-<section class="mes">
+<section id="program" class="mes">
   <div >
     <div class="main-div">
       <h3 class="main-program">
@@ -68,7 +68,7 @@
     <div class ="main-pro">
       <i class="fa-brands fa-kickstarter mee"></i>
     <h4 class="pro-topic">
-      CC Exhibition
+      Online
     </h4>
     <p class="pro-msg">
       listen to lecturals from various countries about softwear development. We will tach you how to master coding
@@ -86,7 +86,7 @@
     <div class ="main-pro">
       <i class="fa-brands fa-kickstarter mee"></i>
     <h4 class="pro-topic">
-      Workshop
+      classe
     </h4>
     <p class="pro-msg">
       listen to lecturals from various countries about softwear development. We will tach you how to master coding
@@ -95,18 +95,25 @@
     <div class ="main-pro">
       <i class="fa-brands fa-kickstarter mee"></i>
     <h4 class="pro-topic">
-      CC Ignite.
+      Ignite.
     </h4>
     <p class="pro-msg">
       listen to lecturals from various countries about softwear development. We will tach you how to master coding
     </p>
     </div>
+    <button class="mobile" >Join Ralph Online Study</button>
   </div>
   </div>
-  <button class="mobile" >JOIN US LIVE</button>
+  
   <label class="desktop" >See the whole program</label>
 </section>
-<section class="third-sction">
+<!--  -->
+<section class="speak-section">
+  <div id="speakersGrid">
+  </div>
+</section>
+<!--  -->
+<section id ="about" class="third-sction">
   <h3 class="hello1">"Hello everyone"</h3>
   <h1 class="ralph2">RALPH IS STUDY PLATFORM <br>YOU CAN ACCESS </h1>
       
@@ -116,55 +123,83 @@
     institutes of higher education expect the rate of growth to continue increasing. Some of the key
     findings: 
   </p>
+  <p class="aps-deck">
+    By far the most popular approach today is online learning. According to the Sloan Consortium,
+    online enrollments continue to grow at rates faster than for the broader student population and
+    institutes of higher education expect the rate of growth to continue increasing. Some of the key
+    findings: By far the most popular approach today is online learning. According to the Sloan Consortium,
+    online enrollments continue to grow at rates faster than for the broader student population and
+    institutes of higher education expect the rate of growth to continue increasing. Some of the key
+    findings: 
+  </p>
   <P class="reach">
-    Please contact us about Ralph03 online study via email ekpenisiraphael@gmail.com.
+    Please contact us about Ralph03 online study via email <span id="email">ekpenisiraphael@gmail.com</span>
   </P>
   <div class="bg-color">
-  <h3 class="ralph3">RALPH IS STUDY PLATFORM <br>YOU CAN ACCESS</h3>
-  <p class="mobile-abouts">
-    In this workshop we will explore what the experience of
-    online learning is like for students.
-  </p>
-  <p class="desktop-abouts">
-    In this workshop we will explore what the experience of
-    online learning is like for students. and how it has
-    changed the role of the instructor. 
-  </p>
-  <div class="logo-div">
-  <img src="./images/ralph.jpg"  width ="98" height="40px" alt="logo">
-  <h3>RALPH03</h3>
-</div>
-<p class="last">2022.10.15(THUR) ~ (16) FRI</p>
- <h5>
-  See our pass students
- </h5>
- <p>
-  See our pass students with the highest grade in 2020 and 2012, currently working
- </p>
- <img src="./images/ralph03.jpg"  width ="300" height="140px" alt="logo">
- <img src="./images/imagesstudent.jpg"  width ="300" height="140px" alt="logo">
-</div>
-<div class="partners">
-<div class="main-div">
-  <h4 class="main-program">
-    Partners
-  </h4>
-  <div>
-    <img src="./images/mozzila.png"  width ="50" height="30px" alt="logo">
-    <img src="./images/google.jpg"  width ="50" height="30px" alt="logo">
-    <img src="./images/naver-logo-black-and-white.png"  width ="50" height="30px" alt="logo">
+    <h3 class="ralph3">RALPH IS STUDY PLATFORM <br>YOU CAN ACCESS</h3>
+    <h3 class="ralph4">RALPH IS STUDY PLATFORM YOU CAN ACCESS</h3>
+    <p class="mobile-abouts">
+      In this workshop we will explore what the experience of
+      online learning is like for students.
+    </p>
+    <p class="desktop-abouts">
+      In this workshop we will explore what the experience of
+      online learning is like for students. and how it has
+      changed the role of the instructor. By far the most popular approach today is online learning. According to the Sloan Consortium,
+      online enrollments continue to grow at rates faster than for the broader student population
+    </p>
+    <div class="logo-div">
+      <img src="./images/ralph.jpg"  width ="98" height="40px" alt="logo">
+     <h3 class="ral-logos">RALPH03</h3>
+    </div>
+    <p class="last">2022.10.15(THUR) ~ (16) FRI</p>
+   <h5 class="students">
+      See our pass students
+   </h5>
+   <p class="look">
+      See our pass students with the highest grade in 2020 and 2012, currently working
+    </p>
+    <div class="Museumf">
+      <div class="student-img1">
+        <h4 class="c2020">2020 best students</h4>
+      </div>
+      <div class="student-img2">
+        <h4 class="c2020">2021 best students</h4>
+      </div>
+    </div>
+  <div class="partners">
+  <div class="main-div">
+    <h4 class="mai-program">
+      Partners
+    </h4>
   </div>
-   <div>
-    <img src="./images/daumakao.jpg"  width ="50" height="30px" alt="logo">
-    <img src="./images/airbnb.png"  width ="50" height="30px" alt="logo">
-   </div>
+  <div class="partnr-img">
+    <img src="./images/imagesbook.png"  width ="70" height="30px" alt="logo">
+    <img src="./images/Google-Dark-Mode.jpg"  width ="70" height="30px" alt="logo">
+    <img src="./images/naver-logo-black-and-white.png"  width ="70" height="30px" alt="logo">
+  </div>
+  <div class="partnr-img1">
+    <img src="./images/downloadme.png"  width ="80" height="30px" alt="logo">
+    <img src="./images/downloadmwe.png"  width ="80" height="30px" alt="logo">
+  </div>
+</div>
+<div class="logo-divs">
+  <img src="./images/ralph.jpg"  width ="58" height="20px" alt="logo">
+  <h3 class="ral-logo">RALPH03</h3>
+  <p class="lastlast">2022.10.15(THUR) ~ (16) FRI</p>
+</div>
+</div>
+<div class="logo-divh">
+  <div class="last-logo" >
+  <img src="./images/ralph.jpg"  width ="58" height="20px" alt="logo">
+  <h3 class="ral-logo">RALPH03</h3>
+ </div>
+  <div class=" last-div">
+    <h5 class="ralp">RALPH IS STUDY PLATFORM YOU CAN ACCESS </h5>
+    <p class="ralps">listen to lecturals from various countries about softwear development. We will tach you how to master coding</p>
+  </div>
+</div>
 
-   <div class="logo-div">
-    <img src="./images/ralph.jpg"  width ="58" height="20px" alt="logo">
-    <h3>RALPH03</h3>
-    <p class="">2022.10.15(THUR) ~ (16) FRI</p>
-  </div>
-  
 </div>
 </section>
   </main>
