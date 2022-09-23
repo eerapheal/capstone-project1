@@ -42,7 +42,6 @@ body {
 
  #nav-bar {
   position: fixed;
-  /* background-color: #fff; */
  }
  
 .hamburger {
@@ -55,15 +54,14 @@ body {
   width: 26px;
   height: 5px;
   background-color: #67696b;
-  margin: 4px;
+  margin: 3px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .first-sction {
-  height: 380px;
   padding: 0 25px;
-  height: 450px;
+  min-height: 450px;
 }
 
 .hello {
@@ -144,7 +142,8 @@ body {
   align-items: center;
   background-color: #464543 ;
   mix-blend-mode:difference;
-  box-shadow: #757370;
+  box-shadow:  1px 1px #757370;
+  min-height: auto;
 }
 
 .mee {
@@ -346,18 +345,15 @@ body {
 }
 
 .lastlast {
-  /* padding-top: 13px; */
   padding-right:88px;
   padding-left:69px;
   font-style: normal;
   font-size: 15px;
   font-weight: 300;
-  /* margin:2px; */
   color:  #758283;
 }
 
 .speak-section {
-  /* display: flex; */
   padding-top: 84px;
   justify-content: center;
   align-items: center;
@@ -377,7 +373,6 @@ body {
 }
 .mesirk {
   display: flex;
-  /* padding:39px; */
 }
 
 .imgjs {
@@ -419,13 +414,23 @@ body {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  background-color: rgb(43, 39, 39);
-  color: #fff;
+  background-color: #fff;
+  color: #333535 ;
   margin: 0 auto;
-  border-radius: 30px;
+  cursor: pointer;
+  border-radius:  30px;
   transition: all .3s ease-out;
   font-size: 14px;
+  font-weight: 500;
+  font-family: normal;
   padding: 8px;
+  border-color: #f4f7f8;
+  width: 320px;
+}
+
+.boder {
+  border: 1px solid #fff;
+  padding: 3px;
 }
 
 .nav-item-desk {
@@ -447,6 +452,42 @@ body {
   display: none;
 }
 
+.social {
+  display: none;
+}
+
+.logo-divh {
+  display: none;
+}
+
+.nav-link:hover {
+  border: 1px solid rgb(233, 63, 63);
+  padding: 3px;
+}
+
+.nav-link1:hover {
+  border: 1px solid rgb(233, 63, 63);
+  padding: 3px;
+}
+
+.nav-link6:hover {
+  border: 1px solid rgb(233, 63, 63);
+  padding: 3px;
+}
+
+.mobile:hover {
+    border: 3px solid rgb(223, 215, 215);
+    padding: 3px;
+}
+.load:hover {
+  border: 3px solid rgb(223, 215, 215);
+  padding: 3px;
+}
+
+.main-pro:hover {
+  border: 1px solid #fff;
+  padding: 3px;
+}
 
 @media (max-width: 768px) {
   .hamburger {
@@ -516,10 +557,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    text-align: center;
-    position: fixed;
-    width: 100vw;
-    height: 62px;
+    height: 42px;
     background-color: #fff;
   }
   
@@ -534,6 +572,8 @@ body {
 
   .nav-link6 {
     color: #ec5242;
+    border: 3px solid #ec5242;
+    padding: 3px;
   }
   .nav-link {
     color: #757370;
@@ -546,13 +586,21 @@ body {
 
   .hello {
     color: #ec5242;
-    padding-top: 50px;
+    padding-top: 150px;
+    font-style: normal;
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 400;
   
   }
   
   .ralph {
     color: #de4839;
     padding-top: 13px;
+    font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 700;
   }
 
   .maindiv-top {
@@ -570,14 +618,15 @@ body {
     text-align: center;
     height: 183px;
     gap: 10px;
-    padding: 0 10px;
+    padding-top: 10px;
+    min-height: 0  auto;
   }
 
-  .pro-msg {
+   .pro-msg {
     color: #fff;
     padding-right: 0px;
     font-size: 12px;
-  }
+   }
 
   .desktop {
     display: flex;
@@ -592,10 +641,6 @@ body {
    min-height: auto;
   }
 
-  .third-sction {
-  
-  }
-  
   .hello1 {
   display: none;
   
@@ -625,7 +670,6 @@ body {
     font-style: normal;
     font-size: 13px;
     font-weight: 300;
-    /* margin:2px; */
     color:  #758283;
   }
 
@@ -664,11 +708,9 @@ body {
     font-weight: 400;
     margin:2px;
     color:  #121313;
-    /* padding-bottom: 13px; */
   }
   
   .look {
-    /* display: flex; */
     padding-right:68px;
     padding-left:68px;
     font-style: normal;
@@ -710,6 +752,7 @@ body {
    }
    
    .logo-divh {
+    display: flex;
       margin-top: 16px;
       background-color: #272a30;
       height: 150px;
@@ -805,9 +848,32 @@ body {
   align-items: center;
   gap: 15px;
   background-color: #333535;
-  padding: 8px;
+  padding: 5px;
+  padding-right: 120px;
  }
 
+ .social-items {
+  color:  #fff;
+      font-style: normal;
+      font-size: 11px;
+      font-weight: 400;
+ }
+ nav {
+  position: fixed;
+  width: 100vw;
+  display: block;
+  gap: 40px;
+ }
+
+ .mee {
+  padding-left: 0px;
+  justify-content: center;
+  display: block;
+  align-items: center;
 }
 
-
+.social-items:hover {
+  border: 3px solid rgb(114, 88, 88);
+  padding: 3px;
+}
+}

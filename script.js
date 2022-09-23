@@ -13,17 +13,17 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navItem.classList.remove('active');
 }));
 
-
+// fature speakers section.
 const speakers = [
   {
     name: 'Yochai Benkler',
-    img: './images/benkler-small-square-250x250.png',
+    img: './images/speaker_01.png',
     title: 'Berkman Professor of Entrepreneurial Legal Studies, Harvard Law School',
     description: 'Benkler studies commons-based peer production, the Internet, and the law. He is the author of The Wealth of Networks: How Social Production Transforms Markets and Freedom (Yale University Press, 2006).',
   },
   {
     name: 'SohYeong Noh',
-    img: './images/downloadroh.jpg',
+    img: './images/speaker_02.png',
     title:
           'Director of Art Center Nabi, Seoul, Korea and Board Member of Creative Commons Korea',
     description:
@@ -31,14 +31,14 @@ const speakers = [
   },
   {
     name: 'Ryan Merkley',
-    img: './images/ryan-merkley-2019-44.jpg',
+    img: './images/speaker_03.png',
     title: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
     description:
           'Ryan had been leading open source and open data projects for over 15 years. He is the co-founder of the Open Source Initiative, the Open Source Hardware Association, and the Open Data Institute.',
   },
   {
     name: 'Lila Tretikov',
-    img: './images/downloadlila.jpg',
+    img: './images/speaker_04.png',
     title:
       'Executive Director of Creative Commons, Former Executive Director of the Wikimedia Foundation',
     description:
@@ -46,7 +46,7 @@ const speakers = [
   },
   {
     name: 'Julia Leda',
-    img: './images/downloadlda.jpg',
+    img: './images/speaker_05.png',
     title:
           'President of Young Pirates of Europe, Member of the European Parliament',
     description:
@@ -54,16 +54,13 @@ const speakers = [
   },
   {
     name: 'Kilnam Chon',
-    img: './images/imageschon.jpg',
+    img: './images/speaker_06.png',
     title: 'Data science. Data visualization ; Python. Tim Cook. UX design ; Arduino. Cloud platforms. Raspberry Pi ; Clubhouse. Linux. Web development',
     description:
       'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012, he was inducted into the inaugural class of the Internet Society’s Internet Hall of Fame. He is currently the CEO of the Internet Society.',
   },
-  // {
-  //   load: 'load more',
-  // },
 ];
-
+// script to make tags and display
 speakers.forEach((speaker) => {
   speakersGrid.innerHTML += `
  <div class="mesir">
@@ -90,39 +87,27 @@ speakers.forEach((speaker) => {
     
 });
 
+// see more btn
 const span = document.createElement('button');
 span.className = 'load';
-span.innerHTML = 'load more';
+span.innerHTML = 'More';
 speakersGrid.appendChild(span);
 
-
+// see more funtion
 const elementList = document.querySelectorAll('.mesir');
 const loading = document.querySelector('.load');
 let curent = 2;
 loading.addEventListener('click', function() {
 
  for (let i = curent; i < curent +2; i++) {
-    // setTimeout( function())
       if (elementList[i]) {
         elementList[i].style.display ='block';
       }
 
     }
-    curent = +2;
+    curent +=2;
     if (curent >= elementList.length){
       e.target.style.display = 'none'
     }
 })
 
-
-// e.target.classList.add('.showloader');
-
-// for (let i = curent; i < curent +3; i++) {n 
-//   setTimeout( function() {
-//     e.target.classList.remove('.showloader');
-//     if (elementList[i]) {
-//       elementList[i].style.display ='flex'
-//     }
-// }, 3000)
-// }
-// })
