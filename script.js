@@ -95,8 +95,34 @@ span.className = 'load';
 span.innerHTML = 'load more';
 speakersGrid.appendChild(span);
 
-const loading = document.getElementsByClassName('.load');
-let curent = 3;
-loading.addEventListener('click', (e) => {
-const elementList = [...document.querySelector('mesir')]
+
+const elementList = document.querySelectorAll('.mesir');
+const loading = document.querySelector('.load');
+let curent = 2;
+loading.addEventListener('click', function() {
+
+ for (let i = curent; i < curent +2; i++) {
+    // setTimeout( function())
+      if (elementList[i]) {
+        elementList[i].style.display ='block';
+      }
+
+    }
+    curent = +2;
+    if (curent >= elementList.length){
+      e.target.style.display = 'none'
+    }
 })
+
+
+// e.target.classList.add('.showloader');
+
+// for (let i = curent; i < curent +3; i++) {n 
+//   setTimeout( function() {
+//     e.target.classList.remove('.showloader');
+//     if (elementList[i]) {
+//       elementList[i].style.display ='flex'
+//     }
+// }, 3000)
+// }
+// })

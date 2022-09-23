@@ -357,7 +357,7 @@ body {
 }
 
 .speak-section {
-  display: flex;
+  /* display: flex; */
   padding-top: 84px;
   justify-content: center;
   align-items: center;
@@ -366,8 +366,15 @@ body {
 .mesir {
   display: flex;
   padding:19px;
+  display: none;
 }
 
+.mesir:nth-child(1) {
+  display: flex;
+}
+.mesir:nth-child(2) {
+  display: flex;
+}
 .mesirk {
   display: flex;
   /* padding:39px; */
@@ -612,13 +619,13 @@ body {
   }
 
   .reach {
-    padding-bottom: 99px;
+    padding-top: 29px;
     padding-left: 450px;
     padding-right: 450px;
     font-style: normal;
     font-size: 13px;
     font-weight: 300;
-    margin:2px;
+    /* margin:2px; */
     color:  #758283;
   }
 
@@ -746,8 +753,61 @@ body {
       color: #fff;
       margin-right: 300px;
       padding-left: 300px;
+      text-align: center;
+  
     }
-}
 
+    #speakersGrid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .load {
+      display: none;
+    }
+    
+    .mesir {
+      display: flex;
+      padding-left: 85px;
+      padding-right: 85px;
+      gap: 0px;
+    }
+    
+    .fea-skp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:  #333535;
+      font-style: normal;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .fa-skp-line {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #f00;
+      width: 40px;
+      
+    }
+
+    .feature-line {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 17px;   
+}
+ .social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  background-color: #333535;
+  padding: 8px;
+ }
+
+}
 
 
