@@ -27,7 +27,7 @@ must have git installed.
 
 # Setup
 Clone this repo with:
-https://github.com/eerapheal/capstone-project1.git
+
 cd my-portfolio
 ## Install
 npm install
