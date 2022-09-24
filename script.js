@@ -61,9 +61,10 @@ const speakers = [
   },
 ];
 // script to make tags and display
+const show = document.getElementById('speakersGrid');
 speakers.forEach((speaker) => {
-  speakersGrid.innerHTML += `
- <div class="mesir">
+  show.innerHTML += `
+ <div class="mesir speadiv">
       <div class="">
         <div class="">
           <img class="imgjs" src="${speaker.img}" 
@@ -84,30 +85,26 @@ speakers.forEach((speaker) => {
         </p>
       </div>
     </div>`;
-    
 });
 
 // see more btn
 const span = document.createElement('button');
 span.className = 'load';
 span.innerHTML = 'More';
-speakersGrid.appendChild(span);
+show.appendChild(span);
 
 // see more funtion
 const elementList = document.querySelectorAll('.mesir');
 const loading = document.querySelector('.load');
 let curent = 2;
-loading.addEventListener('click', function() {
-
- for (let i = curent; i < curent +2; i++) {
-      if (elementList[i]) {
-        elementList[i].style.display ='block';
-      }
-
+loading.addEventListener('click', (e) => {
+  for (let i = curent; i < curent + 2; i += 1) {
+    if (elementList[i]) {
+      elementList[i].style.display = 'block';
     }
-    curent +=2;
-    if (curent >= elementList.length){
-      e.target.style.display = 'none'
-    }
-})
-
+  }
+  curent += 2;
+  if (curent >= elementList.length) {
+    e.target.style.display = 'none';
+  }
+});

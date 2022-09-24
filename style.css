@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap');
 
-*{
-   padding: 0;
-   margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -13,8 +12,8 @@
 
 body {
   background-image: url(./images/smooth-white-wave-background_52683-55288.jpg);
-  background-repeat: no-repeat; 
-  background-size: cover; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-item {
@@ -27,23 +26,21 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  
 }
 
 .nav-item.active {
   left: 0;
 }
 
- .nav-item a {
-   color: #de4839;
-   margin: 9px;
- 
- }
+.nav-item a {
+  color: #de4839;
+  margin: 9px;
+}
 
- #nav-bar {
+#nav-bar {
   position: fixed;
- }
- 
+}
+
 .hamburger {
   display: block;
   cursor: pointer;
@@ -71,7 +68,6 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 200;
-
 }
 
 .ralph {
@@ -84,7 +80,7 @@ body {
 }
 
 .first-p {
-  color:  #758283;
+  color: #758283;
   padding-top: 40px;
   font-style: normal;
   font-size: 13px;
@@ -98,20 +94,21 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
 .first-body {
   color: #758283;
   padding-top: 5px;
   font-style: normal;
   font-size: 12px;
   font-weight: 100;
-} 
+}
 
 .mes {
   background-image: url(./images/imageshbh.jpg);
   background-size: cover;
   background-repeat: repeat;
   padding: 0 20px;
- min-height: 700px;
+  min-height: 700px;
 }
 
 .main-div {
@@ -121,12 +118,13 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
 .main-program {
   display: flex;
   justify-content: center;
   color: #fff;
-  margin-top:40px;
-  margin-bottom:15px;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .line1 {
@@ -138,11 +136,11 @@ body {
 .main-pro {
   display: flex;
   flex-direction: row;
-  margin-top:15px;
+  margin-top: 15px;
   align-items: center;
-  background-color: #464543 ;
-  mix-blend-mode:difference;
-  box-shadow:  1px 1px #757370;
+  background-color: #464543;
+  mix-blend-mode: difference;
+  box-shadow: 1px 1px #757370;
   min-height: auto;
 }
 
@@ -162,19 +160,17 @@ body {
 }
 
 .pro-msg {
+  padding: 8px;
   padding-right: 40px;
   color: #fff;
-  padding-right: 0px;
   font-style: normal;
   font-size: 12px;
   font-weight: 100;
-  padding: 8px;
-  
 }
 
 .third-sction {
   padding-top: 50px;
-   text-align: center;
+  text-align: center;
 }
 
 .hello1 {
@@ -184,9 +180,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 200;
-
 }
-
 
 .bg-color {
   background-color: #fff;
@@ -203,12 +197,11 @@ body {
 
 .approach {
   background-color: #fff;
-  box-shadow: 2px #dba554;
   font-style: normal;
   font-size: 13px;
   font-weight: 100;
-  margin:35px;
-  color:  #758283;
+  margin: 35px;
+  color: #758283;
 }
 
 .reach {
@@ -218,34 +211,33 @@ body {
   font-style: normal;
   font-size: 13px;
   font-weight: 300;
-  margin:2px;
-  color:  #758283;
+  margin: 2px;
+  color: #758283;
 }
 
 #email {
   font-style: normal;
   font-size: 15px;
   font-weight: 300;
-  color:  #3b3f3f;
+  color: #3b3f3f;
 }
 
 .ralph3 {
-  color: #525555;;
+  color: #525555;
   padding-bottom: 13px;
   font-style: normal;
   font-size: 13px;
   font-weight: 550;
 }
 
-
 .mobile-abouts {
   padding-bottom: 41px;
   font-style: normal;
   font-size: 13px;
   font-weight: 300;
-  padding-right:78px;
-  padding-left:78px;
-  color:  #758283;
+  padding-right: 78px;
+  padding-left: 78px;
+  color: #758283;
 }
 
 .logo-div {
@@ -254,7 +246,7 @@ body {
 }
 
 .ral-logo {
-  color:  #333535;
+  color: #333535;
   font-style: normal;
   font-size: 18px;
   font-weight: 700;
@@ -264,7 +256,7 @@ body {
   position: relative;
   font-size: 8px;
   padding-left: 99px;
-  bottom:18px;
+  bottom: 18px;
 }
 
 .students {
@@ -272,27 +264,27 @@ body {
   font-style: normal;
   font-size: 18px;
   font-weight: 600;
-  margin:2px;
-  color:  #424444;
+  margin: 2px;
+  color: #424444;
 }
 
 .look {
   padding-top: 13px;
-  padding-right:68px;
-  padding-left:68px;
+  padding-right: 68px;
+  padding-left: 68px;
   font-style: normal;
   font-size: 13px;
   font-weight: 300;
-  margin:2px;
-  color:  #758283;
+  margin: 2px;
+  color: #758283;
 }
 
 .student-img1 {
- background-image: linear-gradient(180.45deg, rgba(233, 72, 72, 90) 0.75%, rgba(235, 46, 86, 0) 61.94%), url(./images/imagesstudent.jpg);
- width: 310px;
- height: 200px;
- margin: 0 60px;
- margin-top: 20px;
+  background-image: linear-gradient(180.45deg, rgba(233, 72, 72, 90) 0.75%, rgba(235, 46, 86, 0) 61.94%), url(./images/imagesstudent.jpg);
+  width: 310px;
+  height: 200px;
+  margin: 0 60px;
+  margin-top: 20px;
 }
 
 .c2020 {
@@ -300,7 +292,7 @@ body {
   font-style: normal;
   font-size: 23px;
   font-weight: 700;
-  color:  #fff;
+  color: #fff;
 }
 
 .student-img2 {
@@ -322,7 +314,7 @@ body {
   font-style: normal;
   font-size: 20px;
   font-weight: 600;
-  color:  rgb(201, 188, 188);
+  color: rgb(201, 188, 188);
 }
 
 .partnr-img {
@@ -337,20 +329,19 @@ body {
   justify-content: space-around;
 }
 
-
 .logo-divs {
   padding-top: 38px;
-  display:flex;
+  display: flex;
   height: 109px;
 }
 
 .lastlast {
-  padding-right:88px;
-  padding-left:69px;
+  padding-right: 88px;
+  padding-left: 69px;
   font-style: normal;
   font-size: 15px;
   font-weight: 300;
-  color:  #758283;
+  color: #758283;
 }
 
 .speak-section {
@@ -361,16 +352,22 @@ body {
 
 .mesir {
   display: flex;
-  padding:19px;
+  padding: 19px;
+}
+
+.speadiv {
+  padding: 19px;
   display: none;
 }
 
 .mesir:nth-child(1) {
   display: flex;
 }
+
 .mesir:nth-child(2) {
   display: flex;
 }
+
 .mesirk {
   display: flex;
 }
@@ -390,7 +387,7 @@ body {
   font-style: normal;
   font-size: 9px;
   font-weight: 400;
-  color:  #758283;
+  color: #758283;
   padding-top: 11px;
 }
 
@@ -398,7 +395,7 @@ body {
   font-style: normal;
   font-size: 9px;
   font-weight: 400;
-  color:  rgb(196, 79, 79);
+  color: rgb(196, 79, 79);
   padding-top: 8px;
 }
 
@@ -406,7 +403,7 @@ body {
   font-style: normal;
   font-size: 18px;
   font-weight: 600;
-  color:  #0a0a0a;
+  color: #0a0a0a;
 }
 
 .load {
@@ -415,11 +412,11 @@ body {
   justify-content: center;
   text-transform: uppercase;
   background-color: #fff;
-  color: #333535 ;
+  color: #333535;
   margin: 0 auto;
   cursor: pointer;
-  border-radius:  30px;
-  transition: all .3s ease-out;
+  border-radius: 30px;
+  transition: all 0.3s ease-out;
   font-size: 14px;
   font-weight: 500;
   font-family: normal;
@@ -436,14 +433,15 @@ body {
 .nav-item-desk {
   display: none;
 }
+
 .desktop {
-  display:none;
+  display: none;
 }
 
 .desktop-abouts {
   display: none;
 }
-  
+
 .aps-deck {
   display: none;
 }
@@ -476,9 +474,10 @@ body {
 }
 
 .mobile:hover {
-    border: 3px solid rgb(223, 215, 215);
-    padding: 3px;
+  border: 3px solid rgb(223, 215, 215);
+  padding: 3px;
 }
+
 .load:hover {
   border: 3px solid rgb(223, 215, 215);
   padding: 3px;
@@ -512,19 +511,17 @@ body {
   .mobile {
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
     background-color: #bf3312;
     color: #fff;
     border: none;
-    align-items: center;
     margin-left: 26%;
     font-style: normal;
-  font-size: 15px;
-  font-weight: 400;
-  height: 70px;
-  width: 220px;
-  margin-top: 40px;
-    
+    font-size: 15px;
+    font-weight: 400;
+    height: 70px;
+    width: 220px;
+    margin-top: 40px;
   }
 }
 
@@ -534,17 +531,18 @@ body {
   }
 
   .mobile {
-     display:none;
+    display: none;
   }
-   
+
   .mobile-abouts {
     display: none;
   }
+
   .ralph3 {
     display: none;
   }
 
-  .approach  {
+  .approach {
     display: none;
   }
 
@@ -560,7 +558,7 @@ body {
     height: 42px;
     background-color: #fff;
   }
-  
+
   .nav-items {
     display: flex;
     gap: 45px;
@@ -575,12 +573,12 @@ body {
     border: 3px solid #ec5242;
     padding: 3px;
   }
+
   .nav-link {
     color: #757370;
   }
 
   .first-sction {
-
     padding: 60px 155px;
   }
 
@@ -588,19 +586,18 @@ body {
     color: #ec5242;
     padding-top: 150px;
     font-style: normal;
-  font-size: 28px;
-  line-height: 24px;
-  font-weight: 400;
-  
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 400;
   }
-  
+
   .ralph {
     color: #de4839;
     padding-top: 13px;
     font-style: normal;
-  font-size: 38px;
-  line-height: 46px;
-  font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 700;
   }
 
   .maindiv-top {
@@ -608,7 +605,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap :4px;
+    gap: 4px;
     padding: 0 155px;
   }
 
@@ -619,14 +616,13 @@ body {
     height: 183px;
     gap: 10px;
     padding-top: 10px;
-    min-height: 0  auto;
   }
 
-   .pro-msg {
+  .pro-msg {
     color: #fff;
-    padding-right: 0px;
+    padding-right: 0;
     font-size: 12px;
-   }
+  }
 
   .desktop {
     display: flex;
@@ -637,29 +633,22 @@ body {
   }
 
   .mes {
-
-   min-height: auto;
+    min-height: auto;
   }
 
   .hello1 {
-  display: none;
-  
-  }
-
-  .ralph2 {
-     text-align: flex-start;
+    display: none;
   }
 
   .aps-deck {
     display: flex;
     background-color: #fff;
-    box-shadow: 2px #dba554;
     font-style: normal;
     font-size: 13px;
     font-weight: 100;
-    margin-left:350px;
+    margin-left: 350px;
     margin-right: 350px;
-    border:1px solid #dfdedd;
+    border: 1px solid #dfdedd;
     padding: 10px;
   }
 
@@ -670,7 +659,7 @@ body {
     font-style: normal;
     font-size: 13px;
     font-weight: 300;
-    color:  #758283;
+    color: #758283;
   }
 
   .desktop-abouts {
@@ -681,13 +670,13 @@ body {
     font-style: normal;
     font-size: 13px;
     font-weight: 300;
-    margin:2px;
-    color:  #758283;
+    margin: 2px;
+    color: #758283;
   }
 
   .ralph4 {
     display: flex;
-    color: #525555;;
+    color: #525555;
     padding-bottom: 13px;
     font-style: normal;
     font-size: 15px;
@@ -706,26 +695,26 @@ body {
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
-    margin:2px;
-    color:  #121313;
+    margin: 2px;
+    color: #121313;
   }
-  
+
   .look {
-    padding-right:68px;
-    padding-left:68px;
+    padding-right: 68px;
+    padding-left: 68px;
     font-style: normal;
     font-size: 13px;
     font-weight: 300;
-    margin:2px;
-    color:  #758283;
+    margin: 2px;
+    color: #758283;
   }
 
   .Museumf {
     display: flex;
     flex-direction: row;
-   justify-content: center;
+    justify-content: center;
     margin-top: 20px;
-    gap: 0px
+    gap: 0;
   }
 
   .student-img1 {
@@ -733,147 +722,146 @@ body {
     width: 370px;
     height: 250px;
     margin: 0 60px;
-   }
-   
-   .c2020 {
-     padding-top: 78px;
-     font-style: normal;
-     font-size: 23px;
-     font-weight: 700;
-     color:  #fff;
-   }
-   
-   .student-img2 {
-     padding-bottom: 18px;
-     background-image: linear-gradient(180.45deg, rgba(233, 72, 72, 90) 0.75%, rgba(235, 46, 86, 0) 61.94%), url(./images/imagesstudent.jpg);
-     width: 370px;
-     height: 250px;
-     margin: 0 60px;
-   }
-   
-   .logo-divh {
+  }
+
+  .c2020 {
+    padding-top: 78px;
+    font-style: normal;
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .student-img2 {
+    padding-bottom: 18px;
+    background-image: linear-gradient(180.45deg, rgba(233, 72, 72, 90) 0.75%, rgba(235, 46, 86, 0) 61.94%), url(./images/imagesstudent.jpg);
+    width: 370px;
+    height: 250px;
+    margin: 0 60px;
+  }
+
+  .logo-divh {
     display: flex;
-      margin-top: 16px;
-      background-color: #272a30;
-      height: 150px;
-      padding: 45px;
-      padding-left: 150px;
-    }
+    margin-top: 16px;
+    background-color: #272a30;
+    height: 150px;
+    padding: 45px;
+    padding-left: 150px;
+  }
 
-    .logo-divs {
-      display: none;
-    }
-   
-    .last-logo {
-      display: flex;
-    }
-    
-    .ralp {
-      color: #fff;
-      position: relative;
-      bottom: 30px;
-    }
+  .logo-divs {
+    display: none;
+  }
 
-    .ral-logo {
-      color: #fff;
-      
-    }
-    
-    .ral-logos {
-      color:  #333535;
-      font-style: normal;
-      font-size: 18px;
-      font-weight: 700;
-    } 
+  .last-logo {
+    display: flex;
+  }
 
-    .ralps {
-      color: #fff;
-      bottom: 20px;
-      position:relative;
-    }
+  .ralp {
+    color: #fff;
+    position: relative;
+    bottom: 30px;
+  }
 
-    .last-div {
-      color: #fff;
-      margin-right: 300px;
-      padding-left: 300px;
-      text-align: center;
-  
-    }
+  .ral-logo {
+    color: #fff;
+  }
 
-    #speakersGrid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .ral-logos {
+    color: #333535;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+  }
 
-    .load {
-      display: none;
-    }
-    
-    .mesir {
-      display: flex;
-      padding-left: 85px;
-      padding-right: 85px;
-      gap: 0px;
-    }
-    
-    .fea-skp {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color:  #333535;
-      font-style: normal;
-      font-size: 18px;
-      font-weight: 700;
-    }
+  .ralps {
+    color: #fff;
+    bottom: 20px;
+    position: relative;
+  }
 
-    .fa-skp-line {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 1px solid #f00;
-      width: 40px;
-      
-    }
+  .last-div {
+    color: #fff;
+    margin-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+  }
 
-    .feature-line {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 17px;   
-}
- .social {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 15px;
-  background-color: #333535;
-  padding: 5px;
-  padding-right: 120px;
- }
+  #speakersGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
- .social-items {
-  color:  #fff;
-      font-style: normal;
-      font-size: 11px;
-      font-weight: 400;
- }
- nav {
-  position: fixed;
-  width: 100vw;
-  display: block;
-  gap: 40px;
- }
+  .load {
+    display: none;
+  }
 
- .mee {
-  padding-left: 0px;
-  justify-content: center;
-  display: block;
-  align-items: center;
-}
+  .mesir {
+    display: flex;
+    padding-left: 85px;
+    padding-right: 85px;
+    gap: 0;
+  }
 
-.social-items:hover {
-  border: 3px solid rgb(114, 88, 88);
-  padding: 3px;
-}
+  .fea-skp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333535;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .fa-skp-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f00;
+    width: 40px;
+  }
+
+  .feature-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    background-color: #333535;
+    padding: 5px;
+    padding-right: 120px;
+  }
+
+  .social-items {
+    color: #fff;
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  nav {
+    position: fixed;
+    width: 100vw;
+    display: block;
+    gap: 40px;
+  }
+
+  .mee {
+    padding-left: 0;
+    justify-content: center;
+    display: block;
+    align-items: center;
+  }
+
+  .social-items:hover {
+    border: 3px solid rgb(114, 88, 88);
+    padding: 3px;
+  }
 }
