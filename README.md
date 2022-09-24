@@ -6,13 +6,13 @@
 ![](./images/capstone-project-MOBILE.png)
 ![](./images/capstone-project-DESKTOP.png)
 ## Project Name
-Ekpenisi Portfolio.
+Capstone-project.
 
 ## Description of project.
 School project.
 
 ## Project web demo link.
-
+https://eerapheal.github.io/capstone-project1/
 ## Built With
 Html. Css. JS.
 
