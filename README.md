@@ -18,14 +18,14 @@ Html. Css. JS.
 
 ## Website link: 
 
-## Getting starting
+# Getting starting
 To get a local copy up and running follow these simple example steps:
 
-# Prerequisites
+## Prerequisites
 Vscode.
 must have git installed.
 
-# Setup
+## Setup
 Clone this repo with:
 
 cd my-portfolio
