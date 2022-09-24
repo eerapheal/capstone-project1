@@ -10,6 +10,12 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  transition-duration: 1ms;
+}
+
+
 body {
   background-image: url(./images/smooth-white-wave-background_52683-55288.jpg);
   background-repeat: no-repeat;
@@ -54,6 +60,36 @@ body {
   margin: 3px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active .hamburger-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .hamburger-bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: #918d8e;
+}
+
+.hamburger.active .hamburger-bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #918d8e;
+}
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bf3312;
+  color: #fff;
+  border: none;
+  margin-left: 26%;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  height: 70px;
+  width: 220px;
+  margin-top: 40px;
 }
 
 .first-sction {
@@ -430,6 +466,16 @@ body {
   padding: 3px;
 }
 
+.fea-skp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333535;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .nav-item-desk {
   display: none;
 }
@@ -486,43 +532,6 @@ body {
 .main-pro:hover {
   border: 1px solid #fff;
   padding: 3px;
-}
-
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-    cursor: pointer;
-  }
-
-  .hamburger.active .hamburger-bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .hamburger-bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-    background-color: #918d8e;
-  }
-
-  .hamburger.active .hamburger-bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-    background-color: #918d8e;
-  }
-
-  .mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #bf3312;
-    color: #fff;
-    border: none;
-    margin-left: 26%;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: 400;
-    height: 70px;
-    width: 220px;
-    margin-top: 40px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -801,16 +810,6 @@ body {
     padding-left: 85px;
     padding-right: 85px;
     gap: 0;
-  }
-
-  .fea-skp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #333535;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 700;
   }
 
   .fa-skp-line {

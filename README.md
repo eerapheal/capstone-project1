@@ -1,75 +1,57 @@
+## Getting starting
+This repository includes files with plain HTML CSS AND JAVASCRIPTS.
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+![](./images/capstone-project-MOBILE.png)
+![](./images/capstone-project-DESKTOP.png)
+## Project Name
+Ekpenisi Portfolio.
 
-> Description the project.
+## Description of project.
+School project.
 
+## Project web demo link.
 
 ## Built With
+Html. Css.
 
-- Major languages
-- Frameworks
-- Technologies used
+## Prerequisites
+Vscode.
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+## Website link: 
 
 
-## Getting Started
+## Setup
+Clone this repo with:
+https://github.com/eerapheal/capstone-project1
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Install
+npm install
 
+## Author1
+Ekpenisi Erue Raphael.
+ 
+GitHub: (https://github.com/eerapheal) 
+Twitter: (https://twitter.com/ekpenisiraphael) 
+LinkedIn: (https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+## Deployment
+Github
 
+## Show your support
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+![](https://img.shields.io/badge/Microverse-blueviolet).
+Cindy Shin in Behance.
+My Team.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+License
+This project is Ralph licensed.
 
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
