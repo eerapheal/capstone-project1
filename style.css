@@ -97,21 +97,24 @@ body {
 }
 
 .hello {
-  color: #ec5242;
+  color: transparent;
   padding-top: 130px;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
   font-weight: 200;
+  -webkit-text-stroke: 0.5px #524744;
+
 }
 
 .ralph {
-  color: #de4839;
+  color: transparent;
   padding-top: 7px;
   font-style: normal;
   font-size: 23px;
   line-height: 30px;
   font-weight: 600;
+  -webkit-text-stroke: 0.1px #524744;
 }
 
 .first-p {
