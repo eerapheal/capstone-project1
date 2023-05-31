@@ -73,9 +73,9 @@ speakers.forEach((speaker) => {
         </div>
       </div>
       <div class="speaker-tittleDiv">
-        <h3 class="speakername">
+        <span class="speakername">
           ${speaker.name}
-        </h3>
+        </span>
         <p class="speakertittle">
           ${speaker.title}
         </p>

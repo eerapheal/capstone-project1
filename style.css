@@ -16,21 +16,27 @@ html {
 }
 
 body {
-  background-image:  url(./images/smooth-white-wave-background_52683-55288.jpg);
+  background-image: url(./images/smooth-white-wave-background_52683-55288.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.about-link {
+  margin-top: 30px;
 }
 
 .nav-item {
   display: flex;
   position: fixed;
   left: -100%;
-  top: 48px;
+  top: 80px;
   flex-direction: column;
   background-color: #e6e1df;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  z-index: 0;
+  gap: 30px;
 }
 
 .nav-item.active {
@@ -44,6 +50,9 @@ body {
 
 #nav-bar {
   position: fixed;
+  z-index: 3;
+  background-color: #f4f7f8;
+  min-width: 100vw;
 }
 
 .hamburger {
@@ -97,36 +106,33 @@ body {
 }
 
 .hello {
-  color: transparent;
+  color: #a72011;
   padding-top: 130px;
   font-style: normal;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 24px;
-  font-weight: 200;
-  -webkit-text-stroke: 0.5px #524744;
-
+  font-weight: 600;
 }
 
 .ralph {
-  color: transparent;
+  color: #de4839;
   padding-top: 7px;
   font-style: normal;
   font-size: 23px;
   line-height: 30px;
   font-weight: 600;
-  -webkit-text-stroke: 0.1px #524744;
 }
 
 .first-p {
-  color: #758283;
+  color: #4d5556;
   padding-top: 40px;
   font-style: normal;
   font-size: 13px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .date {
-  color: #4d4b4a;
+  color: #4d5556;
   padding-top: 30px;
   font-style: normal;
   font-size: 20px;
@@ -134,11 +140,11 @@ body {
 }
 
 .first-body {
-  color: #758283;
+  color: #4d5556;
   padding-top: 5px;
   font-style: normal;
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .mes {
@@ -147,6 +153,7 @@ body {
   background-repeat: repeat;
   padding: 0 20px;
   min-height: 700px;
+  z-index: 1;
 }
 
 .main-div {
@@ -160,7 +167,7 @@ body {
 .main-program {
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #545454;
   margin-top: 40px;
   margin-bottom: 15px;
 }
@@ -190,7 +197,7 @@ body {
 }
 
 .pro-topic {
-  color: #bf3312;
+  color: #fff;
   padding: 0 20px;
   font-style: normal;
   font-size: 18px;
@@ -206,13 +213,13 @@ body {
   font-weight: 100;
 }
 
-.third-sction {
-  padding-top: 50px;
+#about {
+  padding-top: 150px;
   text-align: center;
 }
 
 .hello1 {
-  color: #ec5242;
+  color: #a72011;
   padding-bottom: 23px;
   font-style: normal;
   font-size: 20px;
@@ -225,7 +232,7 @@ body {
 }
 
 .ralph2 {
-  color: #de4839;
+  color: #a72011;
   padding-bottom: 23px;
   font-style: normal;
   font-size: 23px;
@@ -248,15 +255,15 @@ body {
   padding-right: 50px;
   font-style: normal;
   font-size: 13px;
-  font-weight: 300;
-  margin: 2px;
+  font-weight: 400;
+  margin: 5px;
   color: #758283;
 }
 
 #email {
   font-style: normal;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   color: #3b3f3f;
 }
 
@@ -423,17 +430,17 @@ body {
 
 .speakerdescr {
   font-style: normal;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 400;
-  color: #758283;
+  color: #4d5556;
   padding-top: 11px;
 }
 
 .speakertittle {
   font-style: normal;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 400;
-  color: rgb(196, 79, 79);
+  color: #a72011;
   padding-top: 8px;
 }
 
@@ -507,18 +514,18 @@ body {
 }
 
 .nav-link:hover {
-  border: 1px solid rgb(233, 63, 63);
-  padding: 3px;
+  border: 2px solid rgb(245, 167, 167);
+  padding: 3px 12px;
 }
 
 .nav-link1:hover {
-  border: 1px solid rgb(233, 63, 63);
-  padding: 3px;
+  border: 2px solid rgb(245, 167, 167);
+  padding: 3px 12px;
 }
 
 .nav-link6:hover {
-  border: 1px solid rgb(233, 63, 63);
-  padding: 3px;
+  border: 2px solid rgb(245, 167, 167);
+  padding: 3px 12px;
 }
 
 .mobile:hover {
@@ -561,12 +568,16 @@ body {
     display: none;
   }
 
+  #desktop-nav {
+    z-index: 3;
+  }
+
   .nav-item-desk {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    height: 42px;
+    min-height: 60px;
     background-color: #fff;
   }
 
@@ -576,11 +587,12 @@ body {
   }
 
   .nav-link1 {
-    color: #ec5242;
+    color: #a72011;
+    font-weight: 400;
   }
 
   .nav-link6 {
-    color: #ec5242;
+    color: #a72011;
     border: 3px solid #ec5242;
     padding: 3px;
   }
@@ -594,7 +606,7 @@ body {
   }
 
   .hello {
-    color: #ec5242;
+    color: #a72011;
     padding-top: 150px;
     font-style: normal;
     font-size: 28px;
@@ -603,7 +615,7 @@ body {
   }
 
   .ralph {
-    color: #de4839;
+    color: #a72011;
     padding-top: 13px;
     font-style: normal;
     font-size: 38px;
@@ -624,9 +636,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 183px;
+    min-height: auto;
     gap: 10px;
-    padding-top: 10px;
+    padding: 10px 12px;
   }
 
   .pro-msg {
@@ -637,7 +649,7 @@ body {
 
   .desktop {
     display: flex;
-    color: #fff;
+    color: #9b2c2c;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -645,6 +657,7 @@ body {
 
   .mes {
     min-height: auto;
+    z-index: 1;
   }
 
   .hello1 {
@@ -669,7 +682,7 @@ body {
     padding-right: 450px;
     font-style: normal;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 400;
     color: #758283;
   }
 
